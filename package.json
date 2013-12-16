@@ -6,8 +6,6 @@
   ,"homepage":"https://github.com/mnichols/prefixed-event"
   ,"main": "lib/prefixed-event.js"
   ,"license":"MIT"
-  ,"engines":{
-  }
   ,"keywords": [
     "prefix"
     ,"event"
@@ -19,6 +17,7 @@
     ,"README.md"
   ]
   ,"scripts": {
+        "test":"make test"
     }
   ,"repository":{
     "type":"git"
@@ -30,10 +29,10 @@
   ,"dependencies": {
   }
   ,"devDependencies": {
-    "mocha":"latest"
-    ,"browserify":"latest"
-    ,"detectcss":"latest"
-    ,"chai":"latest"
-    ,"testem":"*"
+    "mocha":"~1.15.1"
+    ,"browserify":"~3.4"
+    ,"detectcss":"~1.0.2"
+    ,"chai":"~1.8.1"
+    ,"testem":"~0.5.15"
   }
 }
