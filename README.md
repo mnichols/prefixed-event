@@ -5,6 +5,7 @@ Simplifies `addEventListener` and `removeEventListener` for events that require 
 
 Adapted from [Craig Buckler's article](http://www.sitepoint.com/css3-animation-javascript-event-handlers/).
 
+
 ### Install
 
 `npm install prefixed-event`
@@ -25,3 +26,9 @@ prefixedEvent.add(el, 'AnimationEnd', doSomething )
 ```
 
 
+### Testing
+
+* Uses browserify
+* Uses `testem`
+
+`make test`
