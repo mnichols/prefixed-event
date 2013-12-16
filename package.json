@@ -4,7 +4,7 @@
   ,"description":"Add and remove event listeners for events that require vendor prefixes."
   ,"author":"Mike Nichols <nichols.mike.s@gmail.com>"
   ,"homepage":"https://github.com/mnichols/prefixed-event"
-  ,"main": "lib/index.js"
+  ,"main": "lib/prefixed-event.js"
   ,"license":"MIT"
   ,"engines":{
   }
@@ -30,7 +30,10 @@
   ,"dependencies": {
   }
   ,"devDependencies": {
-    "mocha":"latest",
-    "chai":"latest"
+    "mocha":"latest"
+    ,"browserify":"latest"
+    ,"detectcss":"latest"
+    ,"chai":"latest"
+    ,"testem":"*"
   }
 }
