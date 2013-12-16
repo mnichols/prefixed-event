@@ -1,5 +1,5 @@
 {
-  "version":"1.0.2"
+  "version":"1.0.3"
   ,"name":"prefixed-event"
   ,"description":"Add and remove event listeners for events that require vendor prefixes."
   ,"author":"Mike Nichols <nichols.mike.s@gmail.com>"
