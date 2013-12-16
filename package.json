@@ -13,8 +13,9 @@
     ,"vendor"
   ]
   ,"files":[
-    "lib/index.js"
+    "lib"
     ,"README.md"
+    ,"test"
   ]
   ,"scripts": {
         "test":"make test"
