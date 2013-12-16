@@ -12,11 +12,6 @@
     ,"browser"
     ,"vendor"
   ]
-  ,"files":[
-    "lib"
-    ,"README.md"
-    ,"test"
-  ]
   ,"scripts": {
         "test":"make test"
     }
