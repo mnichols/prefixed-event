@@ -1,5 +1,5 @@
 {
-  "version":"1.0.3"
+  "version":"1.0.4"
   ,"name":"prefixed-event"
   ,"description":"Add and remove event listeners for events that require vendor prefixes."
   ,"author":"Mike Nichols <nichols.mike.s@gmail.com>"
@@ -21,8 +21,6 @@
   }
   ,"bugs":{
     "url":"https://github.com/mnichols/prefixed-event/issues"
-  }
-  ,"dependencies": {
   }
   ,"devDependencies": {
     "mocha":"~1.15.1"
