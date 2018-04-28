@@ -1,8 +1,10 @@
+PATH  := node_modules/.bin:$(PATH)
+SHELL := /bin/bash
 all: build
 
 build: clean
 	mkdir build
-	./node_modules/.bin/browserify -x ./lib/prefixed-event.js -o build/browserified.js
+	browserify -x ./lib/prefixed-event.js -o build/browserified.js
 
 clean:
 	rm -rf build
